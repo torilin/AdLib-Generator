@@ -19,14 +19,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4x-2D-oPZ">
                                 <rect key="frame" x="66" y="25" width="293" height="102"/>
-                                <color key="backgroundColor" red="0.27105834629341607" green="0.86843286727011981" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.92098599137931036" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Generator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dO-c1-a8L">
                                 <rect key="frame" x="73" y="33" width="278" height="87"/>
-                                <color key="backgroundColor" red="0.68295036978990509" green="0.94411084284072277" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -73,14 +73,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kQm-6R-6Ot">
-                                <rect key="frame" x="66" y="504" width="340" height="128"/>
-                                <color key="backgroundColor" red="0.99503554896539192" green="1" blue="0.98432642025564732" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cMA-NT-6W4">
                                 <rect key="frame" x="124" y="370" width="235" height="29"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <segments>
                                     <segment title="Mall"/>
                                     <segment title="Library"/>
@@ -89,7 +84,7 @@
                                 <color key="tintColor" red="0.81372709424083767" green="0.81372709424083767" blue="0.81372709424083767" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="2" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="jJI-8j-5X5">
-                                <rect key="frame" x="190" y="418" width="171" height="31"/>
+                                <rect key="frame" x="182" y="418" width="171" height="31"/>
                                 <color key="minimumTrackTintColor" red="0.52549019607843139" green="0.78823529411764703" blue="0.29019607843137257" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="maximumTrackTintColor" red="0.99503554900000002" green="1" blue="0.98432642029999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="thumbTintColor" red="0.1464187777" green="0.86794420809999995" blue="0.36868795110000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -102,10 +97,18 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5p-E9-uTk">
                                 <rect key="frame" x="66" y="471" width="293" height="50"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.98507870420476973" green="1" blue="0.97496144869256229" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Create Libs"/>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kQm-6R-6Ot">
+                                <rect key="frame" x="63" y="555" width="298" height="128"/>
+                                <color key="backgroundColor" red="0.99503554896539192" green="1" blue="0.98432642025564732" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96310536649214662" green="0.96310536649214662" blue="0.96310536649214662" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
