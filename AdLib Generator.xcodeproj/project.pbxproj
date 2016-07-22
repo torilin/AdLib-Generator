@@ -12,7 +12,34 @@
 		7131467F1D41C114005BDC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7131467D1D41C114005BDC3D /* Main.storyboard */; };
 		713146811D41C114005BDC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713146801D41C114005BDC3D /* Assets.xcassets */; };
 		713146841D41C114005BDC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713146821D41C114005BDC3D /* LaunchScreen.storyboard */; };
+		713146921D41C283005BDC3D /* AdLib_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713146911D41C283005BDC3D /* AdLib_GeneratorUITests.swift */; };
+		713146A01D41C28B005BDC3D /* AdLib_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7131469F1D41C28B005BDC3D /* AdLib_GeneratorTests.swift */; };
+		713146AF1D41C2FD005BDC3D /* Location Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 713146A71D41C2FD005BDC3D /* Location Icon.png */; };
+		713146B01D41C2FD005BDC3D /* Number Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 713146A81D41C2FD005BDC3D /* Number Icon.png */; };
+		713146B11D41C2FD005BDC3D /* Phrase Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 713146A91D41C2FD005BDC3D /* Phrase Icon.png */; };
+		713146B21D41C2FD005BDC3D /* PN Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 713146AA1D41C2FD005BDC3D /* PN Icon.png */; };
+		713146B31D41C2FD005BDC3D /* PV Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 713146AB1D41C2FD005BDC3D /* PV Icon.png */; };
+		713146B41D41C2FD005BDC3D /* PV Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713146AC1D41C2FD005BDC3D /* PV Icon@2x.png */; };
+		713146B51D41C2FD005BDC3D /* PV Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713146AD1D41C2FD005BDC3D /* PV Icon@3x.png */; };
+		713146B61D41C2FD005BDC3D /* SN Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 713146AE1D41C2FD005BDC3D /* SN Icon.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		713146941D41C283005BDC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7131466E1D41C114005BDC3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713146751D41C114005BDC3D;
+			remoteInfo = "AdLib Generator";
+		};
+		713146A21D41C28B005BDC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7131466E1D41C114005BDC3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713146751D41C114005BDC3D;
+			remoteInfo = "AdLib Generator";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		713146761D41C114005BDC3D /* AdLib Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdLib Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +49,38 @@
 		713146801D41C114005BDC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713146831D41C114005BDC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		713146851D41C114005BDC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7131468F1D41C283005BDC3D /* AdLib GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdLib GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		713146911D41C283005BDC3D /* AdLib_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdLib_GeneratorUITests.swift; sourceTree = "<group>"; };
+		713146931D41C283005BDC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7131469D1D41C28B005BDC3D /* AdLib GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdLib GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7131469F1D41C28B005BDC3D /* AdLib_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdLib_GeneratorTests.swift; sourceTree = "<group>"; };
+		713146A11D41C28B005BDC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713146A71D41C2FD005BDC3D /* Location Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Location Icon.png"; path = "../../../Desktop/Resources/Location Icon.png"; sourceTree = "<group>"; };
+		713146A81D41C2FD005BDC3D /* Number Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Number Icon.png"; path = "../../../Desktop/Resources/Number Icon.png"; sourceTree = "<group>"; };
+		713146A91D41C2FD005BDC3D /* Phrase Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Phrase Icon.png"; path = "../../../Desktop/Resources/Phrase Icon.png"; sourceTree = "<group>"; };
+		713146AA1D41C2FD005BDC3D /* PN Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PN Icon.png"; path = "../../../Desktop/Resources/PN Icon.png"; sourceTree = "<group>"; };
+		713146AB1D41C2FD005BDC3D /* PV Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PV Icon.png"; path = "../../../Desktop/Resources/PV Icon.png"; sourceTree = "<group>"; };
+		713146AC1D41C2FD005BDC3D /* PV Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PV Icon@2x.png"; path = "../../../Desktop/Resources/PV Icon@2x.png"; sourceTree = "<group>"; };
+		713146AD1D41C2FD005BDC3D /* PV Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PV Icon@3x.png"; path = "../../../Desktop/Resources/PV Icon@3x.png"; sourceTree = "<group>"; };
+		713146AE1D41C2FD005BDC3D /* SN Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SN Icon.png"; path = "../../../Desktop/Resources/SN Icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		713146731D41C114005BDC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7131468C1D41C283005BDC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7131469A1D41C28B005BDC3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				713146781D41C114005BDC3D /* AdLib Generator */,
+				713146901D41C283005BDC3D /* AdLib GeneratorUITests */,
+				7131469E1D41C28B005BDC3D /* AdLib GeneratorTests */,
 				713146771D41C114005BDC3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				713146761D41C114005BDC3D /* AdLib Generator.app */,
+				7131468F1D41C283005BDC3D /* AdLib GeneratorUITests.xctest */,
+				7131469D1D41C28B005BDC3D /* AdLib GeneratorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +116,45 @@
 				713146791D41C114005BDC3D /* AppDelegate.swift */,
 				7131467B1D41C114005BDC3D /* ViewController.swift */,
 				7131467D1D41C114005BDC3D /* Main.storyboard */,
+				713146B71D41C31F005BDC3D /* Images */,
 				713146801D41C114005BDC3D /* Assets.xcassets */,
 				713146821D41C114005BDC3D /* LaunchScreen.storyboard */,
 				713146851D41C114005BDC3D /* Info.plist */,
 			);
 			path = "AdLib Generator";
+			sourceTree = "<group>";
+		};
+		713146901D41C283005BDC3D /* AdLib GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				713146911D41C283005BDC3D /* AdLib_GeneratorUITests.swift */,
+				713146931D41C283005BDC3D /* Info.plist */,
+			);
+			path = "AdLib GeneratorUITests";
+			sourceTree = "<group>";
+		};
+		7131469E1D41C28B005BDC3D /* AdLib GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7131469F1D41C28B005BDC3D /* AdLib_GeneratorTests.swift */,
+				713146A11D41C28B005BDC3D /* Info.plist */,
+			);
+			path = "AdLib GeneratorTests";
+			sourceTree = "<group>";
+		};
+		713146B71D41C31F005BDC3D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				713146A71D41C2FD005BDC3D /* Location Icon.png */,
+				713146A81D41C2FD005BDC3D /* Number Icon.png */,
+				713146A91D41C2FD005BDC3D /* Phrase Icon.png */,
+				713146AA1D41C2FD005BDC3D /* PN Icon.png */,
+				713146AB1D41C2FD005BDC3D /* PV Icon.png */,
+				713146AC1D41C2FD005BDC3D /* PV Icon@2x.png */,
+				713146AD1D41C2FD005BDC3D /* PV Icon@3x.png */,
+				713146AE1D41C2FD005BDC3D /* SN Icon.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +177,42 @@
 			productReference = 713146761D41C114005BDC3D /* AdLib Generator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7131468E1D41C283005BDC3D /* AdLib GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713146961D41C283005BDC3D /* Build configuration list for PBXNativeTarget "AdLib GeneratorUITests" */;
+			buildPhases = (
+				7131468B1D41C283005BDC3D /* Sources */,
+				7131468C1D41C283005BDC3D /* Frameworks */,
+				7131468D1D41C283005BDC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				713146951D41C283005BDC3D /* PBXTargetDependency */,
+			);
+			name = "AdLib GeneratorUITests";
+			productName = "AdLib GeneratorUITests";
+			productReference = 7131468F1D41C283005BDC3D /* AdLib GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7131469C1D41C28B005BDC3D /* AdLib GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713146A41D41C28B005BDC3D /* Build configuration list for PBXNativeTarget "AdLib GeneratorTests" */;
+			buildPhases = (
+				713146991D41C28B005BDC3D /* Sources */,
+				7131469A1D41C28B005BDC3D /* Frameworks */,
+				7131469B1D41C28B005BDC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				713146A31D41C28B005BDC3D /* PBXTargetDependency */,
+			);
+			name = "AdLib GeneratorTests";
+			productName = "AdLib GeneratorTests";
+			productReference = 7131469D1D41C28B005BDC3D /* AdLib GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +225,14 @@
 				TargetAttributes = {
 					713146751D41C114005BDC3D = {
 						CreatedOnToolsVersion = 7.3.1;
+					};
+					7131468E1D41C283005BDC3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 713146751D41C114005BDC3D;
+					};
+					7131469C1D41C28B005BDC3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 713146751D41C114005BDC3D;
 					};
 				};
 			};
@@ -113,6 +250,8 @@
 			projectRoot = "";
 			targets = (
 				713146751D41C114005BDC3D /* AdLib Generator */,
+				7131468E1D41C283005BDC3D /* AdLib GeneratorUITests */,
+				7131469C1D41C28B005BDC3D /* AdLib GeneratorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +261,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713146B11D41C2FD005BDC3D /* Phrase Icon.png in Resources */,
+				713146B41D41C2FD005BDC3D /* PV Icon@2x.png in Resources */,
 				713146841D41C114005BDC3D /* LaunchScreen.storyboard in Resources */,
+				713146B61D41C2FD005BDC3D /* SN Icon.png in Resources */,
 				713146811D41C114005BDC3D /* Assets.xcassets in Resources */,
+				713146B21D41C2FD005BDC3D /* PN Icon.png in Resources */,
+				713146B51D41C2FD005BDC3D /* PV Icon@3x.png in Resources */,
+				713146AF1D41C2FD005BDC3D /* Location Icon.png in Resources */,
+				713146B31D41C2FD005BDC3D /* PV Icon.png in Resources */,
+				713146B01D41C2FD005BDC3D /* Number Icon.png in Resources */,
 				7131467F1D41C114005BDC3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7131468D1D41C283005BDC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7131469B1D41C28B005BDC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +301,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7131468B1D41C283005BDC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713146921D41C283005BDC3D /* AdLib_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713146991D41C28B005BDC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713146A01D41C28B005BDC3D /* AdLib_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		713146951D41C283005BDC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713146751D41C114005BDC3D /* AdLib Generator */;
+			targetProxy = 713146941D41C283005BDC3D /* PBXContainerItemProxy */;
+		};
+		713146A31D41C28B005BDC3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 713146751D41C114005BDC3D /* AdLib Generator */;
+			targetProxy = 713146A21D41C28B005BDC3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7131467D1D41C114005BDC3D /* Main.storyboard */ = {
@@ -269,6 +459,52 @@
 			};
 			name = Release;
 		};
+		713146971D41C283005BDC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AdLib GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torilin.AdLib-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AdLib Generator";
+			};
+			name = Debug;
+		};
+		713146981D41C283005BDC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AdLib GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torilin.AdLib-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AdLib Generator";
+			};
+			name = Release;
+		};
+		713146A51D41C28B005BDC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AdLib GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torilin.AdLib-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdLib Generator.app/AdLib Generator";
+			};
+			name = Debug;
+		};
+		713146A61D41C28B005BDC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AdLib GeneratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torilin.AdLib-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdLib Generator.app/AdLib Generator";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -286,6 +522,22 @@
 			buildConfigurations = (
 				713146891D41C114005BDC3D /* Debug */,
 				7131468A1D41C114005BDC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		713146961D41C283005BDC3D /* Build configuration list for PBXNativeTarget "AdLib GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713146971D41C283005BDC3D /* Debug */,
+				713146981D41C283005BDC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		713146A41D41C28B005BDC3D /* Build configuration list for PBXNativeTarget "AdLib GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713146A51D41C28B005BDC3D /* Debug */,
+				713146A61D41C28B005BDC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

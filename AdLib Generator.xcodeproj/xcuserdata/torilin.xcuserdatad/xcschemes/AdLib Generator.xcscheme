@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7131468E1D41C283005BDC3D"
+               BuildableName = "AdLib GeneratorUITests.xctest"
+               BlueprintName = "AdLib GeneratorUITests"
+               ReferencedContainer = "container:AdLib Generator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7131469C1D41C28B005BDC3D"
+               BuildableName = "AdLib GeneratorTests.xctest"
+               BlueprintName = "AdLib GeneratorTests"
+               ReferencedContainer = "container:AdLib Generator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
