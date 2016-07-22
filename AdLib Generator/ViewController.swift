@@ -50,6 +50,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         
         finishSentence.text = "One evening, at the  \(location) a \(singularNounTextField.text!) \(sliderLabel.text!) \(pluralNounTextField.text!) and said, \(enterPhraseTextField.text!)"
+        finishSentence.backgroundColor = UIColor.grayColor()
         
     }
     
